@@ -1,9 +1,13 @@
+import { BrowserRouter } from 'react-router-dom';
+import InicioPage from './Pages/InicioPage';
+import AppRouter from './Routes/AppRouter';
 
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
+    <BrowserRouter>
+      <InicioPage />
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 
