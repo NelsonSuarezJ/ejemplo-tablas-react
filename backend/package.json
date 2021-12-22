@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "eslint": "./node_modules/eslint/bin/eslint.js --max-warnings 0 --ext .js .",
-    "start": "node ./bin/start"
+    "start": "nodemon ./bin/start"
   },
   "dependencies": {
     "cookie-parser": "^1.4.5",
