@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css'    //theme
+//import 'primereact/resources/themes/bootstrap4-dark-blue/theme.css'    //theme
+import 'primereact/resources/themes/lara-light-indigo/theme.css'
 import 'primereact/resources/primereact.min.css'                    //core css
 import 'primeicons/primeicons.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
